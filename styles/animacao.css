@@ -1,0 +1,95 @@
+/* ANIMAÇÃO DO TEXTO H1 */
+
+@keyframes animacaoTitulo {
+    0%{
+        transform: translateY(-100px) scale(0.8);
+    }100% {
+        transform: scale(1);
+    }
+}
+
+/* ANIMACAO DA DESCRICAO */
+
+@keyframes descricaoPosition {
+    0%{
+        transform: translateX(80px);
+    } 
+}
+
+/* ANIMAÇÕES DOS LINKS COM HOVER */
+
+@keyframes hoverBotaoLinkedin {
+    0% {
+        transform: rotate(0deg);
+    } 25% {
+        transform: rotate(1deg);
+    } 50% {
+        transform: rotate(-1deg);
+    } 75% {
+        transform: rotate(1deg);
+    } 100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes hoverBotaoGithub {
+    0% {
+        transform: scale(1.0);
+    } 25% {
+        transform: scale(1.02);
+    } 50% {
+        transform: scale(1.0);
+    } 75% {
+        transform: scale(1.02);
+    } 100% {
+        transform: scale(1.0);
+    }
+}
+
+/* ANIMAÇÕES NA SECTION DE MY SKILLS COM AS IMG */
+
+@keyframes diminuirImg1 {
+    0% {
+        transform: scale(1.0);
+    } 25% {
+        transform: scale(0.95);
+    } 50% {
+        transform: scale(1.0);
+    } 75% {
+        transform: scale(0.95);
+    } 100% {
+        transform: scale(1.0);
+    }
+}
+
+@keyframes diminuirImg2 {
+    0% {
+        transform: scale(0.95);
+    } 25% {
+        transform: scale(1);
+    } 50% {
+        transform: scale(0.95);
+    } 75% {
+        transform: scale(1);
+    } 100% {
+        transform: scale(0.95);
+    }
+}
+
+@keyframes animacaoAbout {
+    0%{
+        transform: translateX(-100px);
+    }
+}
+
+@keyframes animacaoDescricao {
+    0%{
+        transform: translateX(60px);
+    }
+}
+
+@keyframes contactContainer {
+    0%{
+        transform: translateY(80px);
+    }
+}
