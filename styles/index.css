@@ -493,18 +493,18 @@ body {
 }
 
 .project__link-host {
-    background-color: rgb(32, 138, 32);
+    background-color: rgb(197, 197, 197);
     padding: 20px;
     width: 20%;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid rgb(98, 199, 98);
+    border: 1px solid rgb(75, 75, 75);
 }
 
 .project__link-host:hover {
-    background-color: rgb(90, 196, 90);
+    background-color: rgb(170, 170, 170);
     box-shadow: 1px 1px 1px rgba(139, 139, 139, 0.705);
     transform: scale(1.05);
 }
