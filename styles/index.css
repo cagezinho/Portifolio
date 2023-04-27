@@ -288,6 +288,29 @@ body {
     animation-iteration-count: infinite;
 }
 
+.sobremim {
+    width: 100%;
+    margin-bottom: 5em;
+}
+
+.sobremim__container {
+    color: white;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.sobremim__titulo {
+    font-size: 50pt;
+    margin: 40px 0;
+}
+
+.sobremim__paragrafo {
+    margin-bottom: 1em;
+    font-size: 18pt;
+    line-height: 28px;
+}
+
 .footer__container {
     height: 100px;
 }
