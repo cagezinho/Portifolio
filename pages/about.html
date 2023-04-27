@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="../img/ico/ICO-NC.ico" type="image/x-icon">
-    <title>About me</title>
+    <title>Contact</title>
 </head>
 <body>
     <header class="cabecalho__container">
@@ -26,7 +26,7 @@
             </li>
             <li class="cabecalho__lista__item">
                 <a href="about.html" class="cabecalho__lista__item__link">
-                    <video src="../video/perfil.mp4" disableRemotePlayback disablepictureinpicture class="video__menu__nav about"></video>About me
+                    <video src="../video/perfil.mp4" disableRemotePlayback disablepictureinpicture class="video__menu__nav about"></video>Contact
                 </a>
             </li>
             <li class="cabecalho__lista__item">
@@ -36,82 +36,44 @@
             </li>
         </ul>
     </header>
-    <main class="main__about">
-        <section class="about__container">
-            <h1 class="about__titulo">About me</h1>
-            <div class="about__descricao">
-                <p class="about__paragrafo">Olá, meu nome é Nicolas, tenho 21 anos e sou estudante de segurança da informação. Iniciei minha jornada na área da informática há três anos e desde então venho buscando aprimorar meus conhecimentos e habilidades em desenvolvimento web e segurança cibernética.</p>
-                <p class="about__paragrafo">Recentemente, tive a oportunidade de reportar falhas para empresas em Maringá e Londrina, o que me permitiu aprimorar minha compreensão dos desafios enfrentados na área de segurança da informação.</p>
-                <p class="about__paragrafo">Estou animado para continuar aprendendo e desenvolvendo minhas habilidades nesta área, e espero poder contribuir para projetos desafiadores e interessantes no futuro.</p>
-            </div>
-            <button id="voltar-ao-topo" onclick="voltarAoTopo()"><img src="../img/icons8-arrow-up-100.png" alt=""></button>
-        </section>
-        <section class="contact">
-            <div class="contact__container">
-                <div class="contatct__item">
-                    <div class="item__bola">
-                        <div class="item__bolinha"></div>
-                    </div>
-                </div>
-                <div class="contact__h2">
-                    <h2 class="contact__titulo">
-                        Full name
-                    </h2>
-                </div>
-                <div class="contact__p">
-                    <p>Nicolas Cage</p>
+    <main class="section__contact">
+        <div class="card__container">
+            <div class="card">
+                <div class="content">
+                    <h2>01</h2>
+                    <h3>Card Um</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim suscipit molestias, pariatur dignissimos eius, fugit tempore accusamus beatae et, labore</p>
+                    <a href="#">Mais Informações</a>
                 </div>
             </div>
-            <div class="contact__container">
-                <div class="contatct__item">
-                    <div class="item__bola">
-                        <div class="item__bolinha"></div>
-                    </div>
-                </div>
-                <div class="contact__h2">
-                    <h2 class="contact__titulo">
-                        E-mail
-                    </h2>
-                </div>
-                <div class="contact__p">
-                    <p>ncage.contato@gmail.com</p>
+            <div class="card">
+                <div class="content">
+                    <h2>02</h2>
+                    <h3>Card Dois</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim suscipit molestias, pariatur dignissimos eius, fugit tempore accusamus beatae et, labore</p>
+                    <a href="#">Mais Informações</a>
                 </div>
             </div>
-            <div class="contact__container">
-                <div class="contatct__item">
-                    <div class="item__bola">
-                        <div class="item__bolinha"></div>
-                    </div>
-                </div>
-                <div class="contact__h2">
-                    <h2 class="contact__titulo">
-                        Phone
-                    </h2>
-                </div>
-                <div class="contact__p">
-                    <p>(44)99761 5622</p>
+            <div class="card">
+                <div class="content">
+                    <h2>03</h2>
+                    <h3>Card Três</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim suscipit molestias, pariatur dignissimos eius, fugit tempore accusamus beatae et, labore</p>
+                    <a href="#">Mais Informações</a>
                 </div>
             </div>
-            <div class="contact__container">
-                <div class="contatct__item">
-                    <div class="item__bola">
-                        <div class="item__bolinha"></div>
-                    </div>
-                </div>
-                <div class="contact__h2">
-                    <h2 class="contact__titulo">
-                        WhatsApp
-                    </h2>
-                </div>
-                <div class="contact__p">
-                    <a class="contact__link" href="https://www.google.com">
-                        <p>aaaaaaaa</p>
-                    </a>
-                </div>
-            </div>
-        </section>   
+        </div>
     </main>
     <footer class="footer__container"></footer>
     <script src="../js/main.js"></script>
+    <script src="../js/vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card"), {
+		max: 25,
+		speed: 400,
+        glare: true,
+        "max-glare": 1,
+	});
+    </script>
 </body>
 </html>

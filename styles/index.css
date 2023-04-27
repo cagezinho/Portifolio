@@ -1,6 +1,7 @@
 @import url(animacao.css);
 @import url(header.css);
 @import url(rensponsivo.css);
+@import url(contact.css);
 
 :root {
     --cor-fundo: #212121;
@@ -317,107 +318,6 @@ body {
 
 /* ABOUTE ME */
 
-.main__about {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-}
-
-.about__container {
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-    margin: 4em 0;
-}
-
-.about__titulo {
-    text-align: center;
-    color: var(--cor-braco);
-    font-size: 40px;
-
-    animation-name: animacaoAbout;
-    animation-duration: 2s;
-}
-
-.about__descricao {
-    text-align: center;
-    color: var(--cor-braco);
-    margin: 2em 0;
-    line-height: 30px;
-
-    animation-name: animacaoDescricao;
-    animation-duration: 2s;
-}
-
-.about__paragrafo {
-    margin: 10px 0;
-}
-
-.contact {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 60px;
-    width: 100%;
-}
-
-
-
-.contact__container {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 100%;
-    flex-direction: column;
-
-    animation-name: contactContainer;
-    animation-duration: 2s;
-}
-
-.contact__item {
-    display: flex;
-    flex-direction: column;
-}
-
-.contact__h2 {
-    margin: .5em 0;
-    color: var(--cor-braco);
-    font-size: 25px;
-    width: 100%;
-    text-align: center;
-}
-
-.contact__link {
-    text-decoration: none;
-    color: var(--cor-cinza);
-}
-
-.contact__p {
-    margin: .2em 0;
-    color: var(--cor-cinza);
-    width: 100%;
-    text-align: center;
-}
-
-.item__bola {
-    width: 65px;
-    height: 65px;
-    border-radius: 100%;
-    background-color: var(--cor-fundo);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.item__bolinha {
-    width: 12px;
-    height: 12px;
-    border-radius: 100%;
-    background-color: rgba(101, 191, 226, 0.692);
-    display: block;
-}
 
 /* PROJECTS */
 
