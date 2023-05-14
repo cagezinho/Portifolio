@@ -194,9 +194,6 @@ body {
         font-size: 12px;
     }
 
-    .container__meio {
-        flex-direction: column;
-    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -246,9 +243,6 @@ body {
         animation: typing 2s steps(13), blinking 0.5s infinite step-end alternate;
     }
 
-    .container__meio {
-        flex-direction: row-reverse;
-    }
 }
 
 .mySkills {
@@ -415,24 +409,10 @@ body {
     color: var(--color-hover-link);
 }
 
-.project__link-host {
-    background-color: rgb(197, 197, 197);
-    padding: 20px;
-    width: 20%;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid rgb(75, 75, 75);
+.projeto__crud__listaTarefas__titulo {
+    color: black;
 }
 
-.project__link-host:hover {
-    background-color: rgb(170, 170, 170);
-    box-shadow: 1px 1px 1px rgba(139, 139, 139, 0.705);
-    transform: scale(1.05);
-}
-
-.project__link-host__img {
-    width: 33px;
-    height: 32px;
+.projeto__crud__listaTarefas__descricao {
+    color: black;
 }
