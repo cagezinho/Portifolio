@@ -237,10 +237,10 @@ body {
 
     .apresentacao__descricao {
         border-right: 4px solid;
-        width: 18ch;
+        width: 21ch;
         white-space: nowrap;
         overflow: hidden;
-        animation: typing 2s steps(13), blinking 0.5s infinite step-end alternate;
+        animation: typing 2s steps(18), blinking 0.5s infinite step-end alternate;
     }
 
 }
@@ -269,6 +269,10 @@ body {
 
 .mySkills__item {
     display: flex;
+}
+
+.mySkills__img {
+    height: 100px;
 }
 
 .hover1 {
