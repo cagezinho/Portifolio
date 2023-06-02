@@ -33,6 +33,17 @@
     gap: 10px;
 }
 
+.cabecalho__lista__item__link > img {
+    width: 30px;
+    height: 30px;
+    color: white;
+}
+
+.cabecalho__lista__item__link > .cabecalho__container__img__codigo{
+    width: 35px;
+    height: 35px;
+}
+
 .cabecalho__lista__item__link:hover {
     color: var(--color-hover-link);
 }
